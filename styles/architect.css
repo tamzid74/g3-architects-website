@@ -236,9 +236,9 @@ main {
 
 /* Footer style */
 footer {
-    max-width: 100%;
+    max-width: 1440px;
     margin: 130px auto;
-    /* padding: 40px; */
+    padding: 20px;
     border-radius: 8px;
     background: #FFF4E7;
     color: #424242;
