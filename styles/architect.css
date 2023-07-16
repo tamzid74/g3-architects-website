@@ -24,6 +24,7 @@ body {
     padding: 20px 25px;
     border: 0;
     cursor: pointer;
+    margin-top: 50px;
 }
 
 /* header styles */
@@ -51,9 +52,10 @@ nav>ul {
 
 nav li {
     list-style: none;
-    margin-right: 30px;
-    font-size: 1rem;
+    margin-right: 50px;
     font-weight: 500;
+    font-size: 1rem;
+    
 }
 
 li a {
@@ -66,7 +68,9 @@ li a {
 .banner-content{
     max-width: 800px;
     text-align: center;
-    margin: 0 auto;
+    margin: 116px auto;
+    
+
 }
 
 .banner-title {
@@ -81,7 +85,6 @@ li a {
     font-weight: 400;
 }
 .banner img{
-    margin-top: 20px;
     width: 100%;
     
 }
@@ -95,10 +98,14 @@ li a {
     header{
         padding: 20px;
     }
-   
     
      nav{
         flex-direction: column;
+        gap: 10px;
+     }
+     
+     .banner-container{
+        width: 400px;
      }
      
      
