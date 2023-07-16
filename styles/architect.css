@@ -60,7 +60,7 @@ nav>ul {
 
 nav li {
     list-style: none;
-    margin-right: 50px;
+    margin-left: 40px;
     font-weight: 500;
     font-size: 1rem;
 
@@ -256,7 +256,10 @@ footer {
     header {
         padding: 20px;
     }
-
+    nav>ul{
+        width: 90%;
+        
+    }
     nav,
     .team-img-container,
     .feature-container,
