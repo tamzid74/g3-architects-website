@@ -56,11 +56,13 @@ nav {
 
 nav>ul {
     display: flex;
+    justify-content: space-around;
+    gap: 40px;
 }
 
 nav li {
     list-style: none;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     font-weight: 500;
     font-size: 1rem;
 
